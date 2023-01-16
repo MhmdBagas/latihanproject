@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5ebe0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar{
+    background-color: #d5bdaf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: black 0px 4px 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.nav-item>button{
+    border: 2px white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-left: 15px;
+}
+
+
+.footerfield{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background: #d6ccc2;
+    color: black;
+    padding: 30px;
+  }
+  .footer-wrapper{
+    display: flex;
+    flex-direction:column;
+    padding-top:20px ;
+    padding-left:70px ;
+    padding-right:70px;
+    padding-bottom:20px ;
+
+  }
+  .footer-wrapper h3,
+  .footer-wrapper h4{
+    line-height: 3;
+    color: black;
+  }
+  .footer-wrapper p{
+    max-width: 400px;
+    line-height: 1.5;
+  }
+  .footer-wrapper a {
+    text-decoration : none;
+    color: black;
+    line-height: 2;
+  }
+  .footer-wrapper a:hover{
+    text-decoration: underline;
+  }
+
+  .social-media {
+    margin-top: 16px;
+  }
+  .social-media a{
+    text-decoration : none;
+    color: black ;
+    margin-right: 10px;
+  }
+
+  .border-login {
+    padding-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: #928c84 0px 4px 12px;
+    background: #e7ddd2;
+}
+
+@media only screen and (min-width: 500px){
+    .border-login{
+        max-width: 500px;
+        margin: 140px auto 50px;
+    }
+}
+
+
+.row-login0{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 500px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #e7ddd2;
+}
+
+.row-login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    width: 500px;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #e7ddd2;
+}
+
+.row-login input[type="text"]{
+    color: #000000;
+    border: 0px;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+}
+
+.row-login input[type="password"]{
+    color: #000000;
+    border: 0px;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+}
+
+.row-login input[type="date"]{
+    color: #000000;
+    border: 0px;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+    text-transform: uppercase
+}
+
+.row-login select{
+    color: #000000;
+    border: 0px;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+}
+
+.btback{
+    width: 100px ;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+.row-button{
+    background-color: #EEEEEE;
+}
+
+.btsubmit{
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+.btsubmit input[type="submit"] {
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    padding: 12px 12px;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    line-height: 24px;
+    border-radius: 5px;
+    background-color: #323232;
+    text-transform: uppercase
+  }
+
+.txta-row{
+    text-decoration: none;
+    color: darkblue;
+    font-style:italic
+}
